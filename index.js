@@ -1,5 +1,7 @@
 // TODO: Include packages needed for this application
 const inquirer = require("inquirer");
+const fs = require("fs");
+const generateMarkdown = require("./utils/generateMarkdown");
 // TODO: Create an array of questions for user input
 const questions = [
     //User Name
@@ -89,7 +91,7 @@ const questions = [
 
     // LICENSE REPO LIST LINK https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/licensing-a-repository
 
-        choices: ['apache-2.0', 'MIT', 'No License', 'Skip']
+        choices: ['Apache-2.0', 'GNU GPL V3', 'MIT', 'Skip']
     },
 
     // Contributions
@@ -111,19 +113,23 @@ const questions = [
 
     },
 ];
-inquirer
-    .prompt(questions)
-    .then(answers => {
-        console.log(answers);
-    });
-    
 
-    {}
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+    fs.writeFile(fileName, data, function (err){
+        if (err) throw err;
+        console.log("Creating file.");
+    });
+}
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+    prompt(questions)
+    .then(answers => {
+        console.log(answers);
+        writeToFile("README.md", generateMarkdown(answers));
+    });
+}
 
 // Function call to initialize app
 init();

@@ -2,7 +2,7 @@
 
 ## Description
 
-  This is a command-line application that dynamically creates a README.md file from the user's input by utilizing 'inquirer'. Languages used in this application are JavaScript ES6, inquirer.js, JSON, and node.js. The focus of this application is the efficiently reproduce a consistent README.md in an consistent fashion for on going production efforts.
+  This is a command-line application that dynamically creates a README.md file from the user's input by utilizing 'inquirer'. Languages used are JavaScript ES6, inquirer.js, JSON, and node.js. The focus of this application is the efficiently reproduce a consistent README.md in an consistent fashion for on going production efforts.
 
 ## Table of Contents
 - [Installation](#installation)
