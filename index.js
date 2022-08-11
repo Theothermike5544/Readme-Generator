@@ -34,6 +34,20 @@ const questions = [
         }   
     },
 
+    //Email
+    {
+        type: 'input',
+        name: 'email',
+        message: 'Enter your email address.',
+        // check for valid input
+        validate: function (answer) {
+            if (answer.length < 1) {
+                return console.log("You must enter your email.");
+            }
+            return true;
+        } 
+    },
+
      // Title
 
     {
@@ -49,7 +63,7 @@ const questions = [
         }
     },
 
-       // Description
+    // Description
 
     {
         type: 'input',
@@ -89,7 +103,7 @@ const questions = [
         name: 'license',
         message: 'Choose your license for your project.',
 
-    // LICENSE REPO LIST LINK https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/licensing-a-repository
+    // LICENSE REPO LIST LINK https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/licensing-a-repository for future reference
 
         choices: ['Apache-2.0', 'GNU GPL V3', 'MIT', 'Skip']
     },
@@ -123,8 +137,8 @@ function writeToFile(fileName, data) {
 }
 
 // TODO: Create a function to initialize app
-function init() {
-    prompt(questions)
+function init() {inquirer
+    .prompt(questions)
     .then(answers => {
         console.log(answers);
         writeToFile("README.md", generateMarkdown(answers));

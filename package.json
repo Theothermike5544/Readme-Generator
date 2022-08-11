@@ -1,7 +1,7 @@
 {
     "name": "static-site",
     "version": "1.0.0",
-    "description": "",
+    "description": "Node application to auto generate a readme.md file for efficient use based on user input",
     "main": "index.js",
     "scripts": {
       "test": "node index.js"

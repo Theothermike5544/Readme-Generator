@@ -44,17 +44,59 @@ function renderLicenseSection(license) {
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
   return `
-  # ${data.title}
-  ## Description
+
+# ${data.title}
+
+${renderLicenseBadge(data.license)}${renderLicenseLink(data.license)}
+
+## Description
+
   ${data.description}
-  ## Table of Contents
+
+## Table of Contents
+
   * [Installation](#installation)
   * [Usage](#usage)
-  * [Credits](#credits)
+  * [Links](#links)
   * [License](#license)
+  * [Contributions](#contributions)
+  * [Tests](#tests)
+  * [Questions](#questions)
   
-  ${renderLicenseBadge(data.license)}
-`;
+  
+## Installation
+
+  ${data.installation}
+
+## Usage
+
+  ${data.usage}
+
+ ## Links
+ 
+  * Application URL: (https://${data.username}.github.io/${data.repository}/)
+  * Github Repository URL: (https://github.com/${data.username}/${data.repository})
+
+${renderLicenseSection(data.license)}
+
+  ${renderLicenseBadge(data.license)}${renderLicenseLink(data.license)}
+
+## Contributions
+
+  ${data.contributing}
+
+## Tests
+
+  ${data.tests}
+
+## Questions
+
+  [![GitHub](https://img.shields.io/badge/My%20GitHub-Click%20Me!-blueviolet?style=plastic&logo=GitHub)](https://github.com/${data.username}) 
+  [![LinkedIn](https://img.shields.io/badge/My%20LinkedIn-Click%20Me!-grey?style=plastic&logo=LinkedIn&labelColor=blue)](https://www.linkedin.com/in/michael-bishop-1b3358104/)
+  Feel free to reach me at ${data.email} with any question regarding this project!
+
+  `;
+
 }
 
 module.exports = generateMarkdown;
