@@ -13,14 +13,11 @@
   
 ## Installation
 
-Ensure node.js is installed before running application:
-https://nodejs.org/en/download/package-manager/
+Ensure node.js is installed before running application, https://nodejs.org/en/download/package-manager/
 
 ## Usage
 
-  The application runs in the console by using the following command:
-
-node index.js
+  The application runs in the console by using the following command, node index.js
 
 ## Credits
 
