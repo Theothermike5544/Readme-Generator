@@ -76,6 +76,7 @@ ${renderLicenseBadge(data.license)}${renderLicenseLink(data.license)}
  
   * Application URL: (https://${data.username}.github.io/${data.repository}/)
   * Github Repository URL: (https://github.com/${data.username}/${data.repository})
+  * Video Walk-Through URL: (https://drive.google.com/file/d/1yuFVobr6ZsssxxzpFf0FzLAohi7pDupB/view)
 
 ${renderLicenseSection(data.license)}
 

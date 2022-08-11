@@ -6,7 +6,7 @@
 
 ## Description
 
-  This is a command-line application that dynamically creates a README.md file from the user's input by utilizing 'inquirer'. Languages used are JavaScript ES6, inquirer.js, JSON, and node.js. The focus of this application is the efficiently reproduce a consistent README.md in an consistent fashion for on going production efforts.
+    This is a command-line application that dynamically creates a README.md file from the user's input by utilizing 'inquirer'. Languages used are JavaScript ES6, inquirer.js, JSON, and node.js. The focus of this application is the efficiently reproduce a consistent README.md in an consistent fashion for on going production efforts.
 
 ## Table of Contents
 
@@ -21,20 +21,17 @@
   
 ## Installation
 
-  Make sure to have node.js installed before running application: https://nodejs.org/en/download/package-manager/
+    Make sure to have node.js installed before running application: download [here](https://nodejs.org/en/download/package-manager/)
 
 ## Usage
 
-    The application will be invoked by using the following command: node index.js
-
-    A live demo can be found by watching the video published at:
-    https://drive.google.com/file/d/1yuFVobr6ZsssxxzpFf0FzLAohi7pDupB/view
-    
+  The application will be invoked by using the following command:
 
  ## Links
  
   * Application URL: (https://Theothermike5544.github.io/Readme-Generator/)
   * Github Repository URL: (https://github.com/Theothermike5544/Readme-Generator)
+  * Video Walk-Through URL: (https://drive.google.com/file/d/1yuFVobr6ZsssxxzpFf0FzLAohi7pDupB/view)
 
 This application is protected under the Apache-2.0 license. Please visit this [link](https://choosealicense.com/licenses/apache-2.0/) for more information.
 
@@ -42,7 +39,7 @@ This application is protected under the Apache-2.0 license. Please visit this [l
 
 ## Contributions
 
-      Fork, request, or contact me.
+  Fork, request, or contact me.
 
 ## Tests
 
