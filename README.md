@@ -2,11 +2,11 @@
 
 # README-GENERATOR
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow)](https://opensource.org/licenses/MIT)
+[![License: Apache-2.0](https://img.shields.io/badge/License-Apache_2.0-yellowgreen)](https://opensource.org/licenses/Apache-2.0)
 
 ## Description
 
-    This is a command-line application that dynamically creates a README.md file from the user's input by utilizing 'inquirer'. Languages used are JavaScript ES6, inquirer.js, JSON, and node.js. The focus of this application is the efficiently reproduce a consistent README.md in an consistent fashion for on going production efforts.
+          This is a command-line application that dynamically creates a README.md file from the user's input by utilizing 'inquirer'. Languages used are JavaScript ES6, inquirer.js, JSON, and node.js. The focus of this application is the efficiently reproduce a consistent README.md in an consistent fashion for on going production efforts.
 
 ## Table of Contents
 
@@ -21,24 +21,24 @@
   
 ## Installation
 
-  install node.js
+  Make sure to have node.js installed before running application: https://nodejs.org/en/download/package-manager/
 
 ## Usage
 
-  application is initialized running the command node index.js
+  application is initialized running the command: node index.js
 
  ## Links
  
-  * Application URL: (https://theothermike5544.github.io/Readme-Generator/)
-  * Github Repository URL: (https://github.com/theothermike5544/Readme-Generator)
+  * Application URL: (https://Theothermike5544.github.io/Readme-Generator/)
+  * Github Repository URL: (https://github.com/Theothermike5544/Readme-Generator)
 
-This application is protected under the MIT license. Please visit this [link](https://choosealicense.com/licenses/mit/) for more information.
+This application is protected under the Apache-2.0 license. Please visit this [link](https://choosealicense.com/licenses/apache-2.0/) for more information.
 
-  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow)](https://opensource.org/licenses/MIT)
+  [![License: Apache-2.0](https://img.shields.io/badge/License-Apache_2.0-yellowgreen)](https://opensource.org/licenses/Apache-2.0)
 
 ## Contributions
 
-  fork and contribute
+  Fork, request, or contact me.
 
 ## Tests
 
@@ -46,7 +46,7 @@ This application is protected under the MIT license. Please visit this [link](ht
 
 ## Questions
 
-  [![GitHub](https://img.shields.io/badge/My%20GitHub-Click%20Me!-blueviolet?style=plastic&logo=GitHub)](https://github.com/theothermike5544) 
+  [![GitHub](https://img.shields.io/badge/My%20GitHub-Click%20Me!-blueviolet?style=plastic&logo=GitHub)](https://github.com/Theothermike5544) 
   [![LinkedIn](https://img.shields.io/badge/My%20LinkedIn-Click%20Me!-grey?style=plastic&logo=LinkedIn&labelColor=blue)](https://www.linkedin.com/in/michael-bishop-1b3358104/)
   Feel free to reach me at mrbishop5544@gmail.com with any question regarding this project!
 
